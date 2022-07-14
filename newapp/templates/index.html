@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<script src="{% static 'js/demo.js' %}"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>News API</title>
+</head>
+<body>
+    <h1 style="color:blue"> Hello, Folks!!</h1>
+    <h1><a href="{% url 'ABOUTUSfile'%}">Click here to read the latest news.</a><br/></h1>
+<div class = "container">
+     <div class="text-center">
+  <img src="{% static 'images/img2.jpg'%}"height="500px" width="1350px" onclick="viewmsg();" /">
+     </div>
+</div>
+</body>
+</html>
